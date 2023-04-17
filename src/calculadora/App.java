@@ -30,6 +30,8 @@ public class App {
 		
 		switch(op) {
 		
+			case 1: System.out.printf("La suma de %.2f y %.2f da como resultado %.2f", op1, op2, op1+op2);
+					break;
 		
 			default: System.err.println("Error al seleccionar la operación. Saliendo del programa");
 		}
